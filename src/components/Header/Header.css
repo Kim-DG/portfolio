@@ -1,4 +1,5 @@
 .header {
+    flex-wrap: wrap;
     display: flexbox;
     position: fixed;
     width: 100%;
@@ -38,7 +39,6 @@
     background-color: black;
     opacity: 0.8;
 }
-
 
 .header_title{
     margin-right: 30px;

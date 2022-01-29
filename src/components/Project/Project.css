@@ -1,5 +1,6 @@
 .project{
     display: flex;
+    flex-wrap: wrap;
     background:cornflowerblue;
     height: 100%;
     width: 100%;
@@ -11,6 +12,7 @@
 
 .project_containor{
     display: flex;
+    flex-wrap: wrap;
     width: 1000px;
     flex-direction: column;
     justify-content: center;
