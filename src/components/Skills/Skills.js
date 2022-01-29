@@ -18,7 +18,7 @@ function Skills() {
 
       <div className="Skills_big_containor">
         <div className="Skills_containor">
-          <h2 className="Skill_Title"> Front-end</h2>
+          <h2 className="skill_sub_title"> Front-end</h2>
           <hr />
           <img className="Skills_box" src={css} />
           <img className="Skills_box" src={html} />
@@ -28,13 +28,13 @@ function Skills() {
           <img className="Skills_box" src={javascript} />
         </div>
         <div className="Skills_containor">
-          <h2 className="Skill_Title">Back-end</h2>
+          <h2 className="skill_sub_title">Back-end</h2>
           <hr />
           <img className="Skills_box" src={nodejs} />
           <img className="Skills_box" src={mysql} />
         </div>
         <div className="Skills_containor">
-          <h2 className="Skill_Title">etc</h2>
+          <h2 className="skill_sub_title">etc</h2>
           <hr />
           <img className="Skills_box" src={git} />
           <img className="Skills_box" src={github} />
