@@ -13,24 +13,31 @@
 }
 
 .about_me_title{
-    position: relative;
-    width: 100vw;
     padding-bottom: 100px;
     padding-top: 250px;
-    box-sizing: border-box;
     font-size: 4vw;
     color: ivory;
 }
 
 .about_me_section{
-    position: relative;
-    width: 100vw;
     line-height: 40px;
     padding-bottom: 500px;
     box-sizing: border-box;
     text-align: center;
     align-self: center;
-    font-size: 4vw;
+    font-size: 20px;
     color: ivory;
 }
 
+@media (max-width: 700px) {
+    .about_me_section{
+        width: 100vw;
+        line-height: 40px;
+        padding-bottom: 500px;
+        box-sizing: border-box;
+        text-align: center;
+        align-self: center;
+        font-size: 4vw;
+        color: ivory;
+    }
+}
