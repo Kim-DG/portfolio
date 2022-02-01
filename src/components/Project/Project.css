@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     background:cornflowerblue;
     height: 100%;
-    width: 100%;
     align-self: center;
     justify-content: center;
     padding-top: 80px;
@@ -13,7 +12,7 @@
 .project_containor{
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 50vw;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
@@ -76,4 +75,69 @@
 }
 .project a:active {
     color : black;
+}
+
+@media (max-width: 700px) {
+	.project{
+        display: flex;
+        flex-wrap: wrap;
+        background:cornflowerblue;
+        height: 100%;
+        align-self: center;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    
+    .project_containor{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0px 0px;
+        background: white;   
+        margin: 5rem;
+        box-shadow: 0 10px 20px rgba(0,0,0,.2), 0 10px 20px rgba(0,0,0,.2);
+    }
+    
+    .project_title{
+        font-size: 30px;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .project_sub_title{
+        font-size: 10px;  
+        line-height: 10px;
+        text-align: center;
+    }
+    
+    .project_contents{
+        display: flex;
+        justify-content: center;
+        flex-direction: row
+    }
+    
+    .project_img{
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+    
+    .project_section{
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 20px;
+        font-size: 2pt;
+        box-sizing: border-box;
+        text-align: left;
+    }
+    
+    .project_date{
+        color: gray;
+        margin-top: 20px;
+        font-size: 7pt;
+        font-weight: normal;
+    }
 }
