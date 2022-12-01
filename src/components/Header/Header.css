@@ -1,5 +1,4 @@
 .header {
-    display: flex;
     flex-wrap: wrap;
     position: fixed;
     width: 100vw;
@@ -51,7 +50,31 @@
     list-style: none;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 1000px) and (max-width: 2000px) {
+    .header_title{
+        margin-right: 30px;
+        color: white;
+        font-weight: bold;
+        font-size:14px;
+    }
+    .header_li{
+        margin-left: 3rem;
+        padding: 1.5rem;
+        color: gray;
+        font-weight: bolder;
+        font-size:14px;
+    }
+    .onMouse_header_li{
+        margin-left: 3rem;
+        padding: 1.5rem;
+        color: white;
+        font-weight:bolder;
+        font-size:14px;
+    }
+
+}
+
+@media (max-width: 999px) {
     .header {
         flex-wrap: wrap;
         position: fixed;
