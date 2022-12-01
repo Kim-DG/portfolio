@@ -3,6 +3,7 @@ import "./Project.css";
 import CatTree from "./img/cattree.jpg";
 import NaEats from "./img/naeats.jpg";
 import GeoTech from "./img/geotech.jpg";
+import EscapeRoom from "./img/escaperoom.jpg";
 import KeunsoriScheduler from "./img/keunsorischeduler.jpg";
 import CheckMoney from "./img/checkmoney.jpg";
 import Pospot from "./img/pospot.jpg";
@@ -16,6 +17,35 @@ function Project() {
 
         <div className="project_containor">
           <div className="project_sub_title">
+            <h1>방탈출 예약 오픈 시간</h1>
+            <h4 className="project_date">2022. 11 (2인 프로젝트)</h4>
+          </div>
+          <div className="project_contents">
+            <img src={EscapeRoom} className="project_img" alt="EscapeRoom" />
+            <div className="project_section">
+              <p>
+                여러 방탈출들의 예약 오픈 시간을 알려주는 앱입니다.
+                <br />
+                flutter에 대한 복습과 제작한 앱을 직접 플레이스토어에 배포해보고 싶어
+                구현한 앱입니다. 그렇기 때문에 복잡한 구현대신 빠르게 작업할 수 있고
+                사용자들이 필요할만한 아이디어를 생각했습니다. 방탈출 예약을할 때 인기있는
+                방탈출들은 예약시간에 맞춰서 예약을 해야하는데 예약이 열리는 시간이 업체마다
+                다르기 때문에 언제 열리는지 찾아봐야했습니다. 이를 해결하기 위해 이 주제를 기획했고
+                서버와 연동도 필요없이 로컬DB를 이용하여 데이터를 보여줄 수 있게 구현하였습니다.
+                앱의 구조로는 flutter에서 mvvm패턴 사용을 위해 bloc과 상태관리를 위해
+                provider를 사용했습니다.
+                <br />
+              </p>
+              <hr />
+              <h3>• 발파 그래프 출력 어플리케이션</h3>
+              <h3>• skills - kotlin / android jetpack</h3>
+              <h3>• 기여 - android Front-end 70% / python script 100%</h3>
+            </div>
+          </div>
+        </div>
+
+        <div className="project_containor">
+          <div className="project_sub_title">
             <h1>Geo Tech One</h1>
             <h4 className="project_date">2022. 4 - 2022. 6 (2인 프로젝트)</h4>
           </div>
@@ -23,7 +53,7 @@ function Project() {
             <img src={GeoTech} className="project_img" alt="GeoTech" />
             <div className="project_section">
               <p>
-                외주를 맡아 작업한 그래프 출력 어플입니다.
+                외주를 맡아 작업한 그래프 출력 앱입니다.
                 <br />
                 synology nas와 연동하여 nas 저장소에 파일이 생길 때마다 푸시
                 메시지를 전송하고 해당 파일을 읽어 그래프를 표시하는 기능을
@@ -41,7 +71,7 @@ function Project() {
                 실행해야 하는 부분에 있어서 많은 시도 끝에 deeplink를 통해
                 성공적으로 이동시킬 수 있었습니다.
                 <br />
-                이렇게 많은 시행착오를 겪으면서 jetpack의 많은 기능들을 사용해
+                많은 시행착오를 겪으면서 jetpack의 많은 기능들을 사용해
                 본 프로젝트였습니다.
               </p>
               <hr />
@@ -91,7 +121,7 @@ function Project() {
 
         <div className="project_containor">
           <div className="project_sub_title">
-            <h1>큰소리 스케쥴러</h1>
+            <h1>큰소리 스케줄러</h1>
             <h4 className="project_date">2021. 11 - 2021. 12 (1인 프로젝트)</h4>
           </div>
           <div className="project_contents">
@@ -103,7 +133,7 @@ function Project() {
             <div className="project_section">
               <p>
                 동아리에서 해마다 두번 진행하는 공연을 도와주고 기록하는
-                어플입니다.
+                앱입니다.
                 <br />
                 동아리 활동을 하며 공연을 많이 해봤는데 공연의 곡을 선정하는 일,
                 연습 일정을 잡는 일 등 신경 써야 할 것들을 한 번에 정리해 줄 수
@@ -150,7 +180,7 @@ function Project() {
             <img src={CheckMoney} className="project_img" alt="CheckMoney" />
             <div className="project_section">
               <p>
-                지출, 소비를 기록할 수 있는 가계부 어플입니다.
+                지출, 소비를 기록할 수 있는 가계부 앱입니다.
                 <br />
                 android 개발 1인, ios 개발 1인, 웹 개발 1인, 백엔드 1인 총
                 4인으로 프로젝트를 진행하였습니다.
@@ -189,7 +219,7 @@ function Project() {
             <img src={Pospot} className="project_img" alt="Pospot" />
             <div className="project_section">
               <p>
-                졸업프로젝트로 만든 포즈 추천 어플입니다. <br />
+                졸업프로젝트로 만든 포즈 추천 앱입니다. <br />
                 사진을 찍으면 인공지능 모델이 찍은 장소와 어울리는 포즈를 DB에서
                 가져와 출력해 주는 pose 기능과 찍은 장소와 비슷한 장소를 추천해
                 주는 spot 기능이 있습니다. <br />이 프로젝트를 진행하면서
